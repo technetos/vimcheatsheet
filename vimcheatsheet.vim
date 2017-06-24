@@ -13,6 +13,7 @@ OpenAll                         zR
 Buffers {{{
 
 Go to buffer                    N-CTRL+^
+Run command over all buffers    :bufdo [cmd]
 
 ----------------------------------------------------------------------------}}}
 
