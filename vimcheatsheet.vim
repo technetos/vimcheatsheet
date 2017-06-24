@@ -2,22 +2,29 @@
 
 Folds {{{
 
-Open          zo
-Close         zc 
+Open                            zo
+Close                           zc 
 
-CloseAll      zM
+CloseAll                        zM
+OpenAll                         zR
 
 ----------------------------------------------------------------------------}}}
 
 Buffers {{{
 
-Go to buffer:   N-CTRL+^
+Go to buffer                    N-CTRL+^
 
 ----------------------------------------------------------------------------}}}
 
 Lines {{{
 
-Move a line:    :m[+N,-N]
-Copy Line:      yy
+Move a line                     :m[+N,-N]
+Copy Line                       yy
+
+----------------------------------------------------------------------------}}}
+
+Searching {{{
+
+Clear Highlighing               :noh 
 
 ----------------------------------------------------------------------------}}}
