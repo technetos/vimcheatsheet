@@ -14,6 +14,7 @@ Buffers {{{
 
 Go to buffer                    N-CTRL+^
 Run command over all buffers    :bufdo [cmd]
+Go to previous buffer           :b#
 
 ----------------------------------------------------------------------------}}}
 
@@ -27,5 +28,14 @@ Copy Line                       yy
 Searching {{{
 
 Clear Highlighing               :noh 
+
+----------------------------------------------------------------------------}}}
+
+Tags {{{
+
+Generate CTAGS for a project    $ ctags -R . --c++-kinds=+p --fields=+iaS
+Jump to definition              ctrl-]
+Jump back from definition       ctrl-T
+Open definition in a h-split    ctrl-W ctrl-]
 
 ----------------------------------------------------------------------------}}}
