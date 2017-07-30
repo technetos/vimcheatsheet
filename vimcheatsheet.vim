@@ -39,3 +39,14 @@ Jump back from definition       ctrl-T
 Open definition in a h-split    ctrl-W ctrl-]
 
 ----------------------------------------------------------------------------}}}
+
+Formatting {{{
+
+textwidth   = 80
+wrapmargin  = 2
+
+restructure all lines           gqG
+restructure paragraph           gq}
+restructure line                gqq
+
+----------------------------------------------------------------------------}}}
