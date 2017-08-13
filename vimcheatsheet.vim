@@ -33,7 +33,9 @@ Clear Highlighing               :noh
 
 Tags {{{
 
-Generate CTAGS for a project    $ ctags -R . --c++-kinds=+p --fields=+iaS
+Generate ctags                  $ ctags -R . --c++-kinds=+p --fields=+iaS
+Generate rust tags              $ rusty-tags vi
+
 Jump to definition              ctrl-]
 Jump back from definition       ctrl-T
 Open definition in a h-split    ctrl-W ctrl-]
@@ -48,5 +50,12 @@ wrapmargin  = 2
 restructure all lines           gqG
 restructure paragraph           gq}
 restructure line                gqq
+
+----------------------------------------------------------------------------}}}
+
+Changes {{{
+
+Repeat last change              .
+Repeat last command line        @:
 
 ----------------------------------------------------------------------------}}}
