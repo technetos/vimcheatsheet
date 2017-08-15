@@ -60,3 +60,11 @@ Repeat last change              .
 Repeat last command line        @:
 
 ----------------------------------------------------------------------------}}}
+
+Commands {{{
+
+(For now)
+Run a command with coloring     :te cmd 
+output
+
+----------------------------------------------------------------------------}}}
