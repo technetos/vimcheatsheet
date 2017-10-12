@@ -67,4 +67,8 @@ Commands {{{
 Run a command with coloring     :te cmd 
 output
 
+Insert the output of a shell    :read !<your command>
+command into the current vim
+buffer
+
 ----------------------------------------------------------------------------}}}
