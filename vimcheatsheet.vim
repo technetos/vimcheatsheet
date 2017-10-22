@@ -15,6 +15,7 @@ Buffers {{{
 Go to buffer                    N-CTRL+^
 Run command over all buffers    :bufdo [cmd]
 Go to previous buffer           :b#
+Wipe away a buffer              :bw n
 
 ----------------------------------------------------------------------------}}}
 
